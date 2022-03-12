@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+  }
+
+.nav4{
+  z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 0;
+     position: fixed;
+     overflow: hidden;
+    color: rgb(0, 0, 0);
+    
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg, #ffffff 1.18%, #ccc7ce 100%);
+     padding: 20px 0px;
+     font-family: 'Times New Roman', Times, serif;
+     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.4);
+  }
+  .nav4-logo{
+  margin:0px  30px 0px 50px;
+  height: 170%;
+  }
+  .nav4-heading{
+      margin-right: auto;
+        font-family: impact;
+      font-size: 2.5em;
+      text-transform: uppercase;
+      color: white;
+      letter-spacing: 1px;
+      text-shadow:2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0px 2px 0 #000,
+      2px 0px 0 #000,
+      0px -2px 0 #000,
+      -2px 0px 0 #000,
+      2px 2px 5px #000;
+  }
+  .nav4-righttext{
+      margin-right: 30px;
+  }
+  .meme-content{
+    margin-top: 100px;
+     padding: 50px;
+  }
+  .meme-form{
+    display: grid ;
+    
+     grid-template:40px 60px /2fr  2fr;
+    gap:30px;
+  }
+  .meme-content-input{
+    text-indent: 20px;
+      border-radius:10px ;
+  }
+  .meme-content-button{
+    background: linear-gradient(90deg, #000000 1.18%, #797878 100%);color: whitesmoke;
+border-radius: 10px;
+     grid-column: 1/-1;
+      
+font-size: 20px;
+ 
+ padding: 15px 25px;
+ font-size: 24px;
+ text-align: center;
+ cursor: pointer;
+ outline: none;
+ color: #fff;
+  border: none;
+ border-radius: 15px;
+ box-shadow: 0 9px #999;
+
+}
+ 
+
+ 
+
+.meme-content-button:hover {background: #3e8e41}
+
+.meme-content-button:active {
+  background: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.back{
+    background-color: aqua;
+    
+}
+.image-container{
+  margin-top: 50px;
+  display: flex;
+   
+ 
+  justify-content: center;
+}
+.meme-image{
+   align-self: center;
+   width: 50%;
+   height: 50%;
+}
+.boxs{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display:inline-block;
+  margin-right: 10px;
+  z-index: 4;
+}
+.form-container {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ 
+.meme {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+.form {
+padding: 50px;
+  display: grid;
+  grid-template: 60px 60px / 1fr 1fr;
+  gap: 17px;
+  margin-top: 200px;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form--input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.form--submit {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #639;
+  border: none;   
+  cursor: pointer; 
+}
+
+.form--marketing {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.form--marketing > input {
+  margin-right: 10px;
+}
+.output{
+    text-align: center;
+  padding: 20px;
+  color: #fff;
+  width: 280px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+
+}
+
+.form-container {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form1{
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+
+.form--input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.form--submit {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #639;
+  border: none;   
+  cursor: pointer; 
+}
+
+.form--marketing {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.form--marketing > input {
+  margin-right: 10px;
+}
+ion-icon {
+    margin-right: 20px;
+  }
